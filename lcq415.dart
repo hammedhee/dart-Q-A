@@ -27,10 +27,10 @@ num1 and num2 don't have any leading zeros except for the zero itself.
 // ans 
 class Solution {
   String addStrings(String num1, String num2) {
- int bigNum1= int.parse(num1);
- int bigNum2= int.parse(num2);
- var result =bigNum1+bigNum2;
- return result.toString();
-  }
-}
+  BigInt bigIntNum1 = BigInt.parse(num1);
+    BigInt bigIntNum2 = BigInt.parse(num2);
 
+    BigInt sum = bigIntNum1 + bigIntNum2;
+
+    return sum.toString();}
+}
