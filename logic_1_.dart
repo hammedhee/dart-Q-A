@@ -32,5 +32,13 @@ void main() {
   print(doble);
 }
 
+// by using sqrt(variable).toInt()
 
-          
+import 'dart:math';
+
+void main() {
+  int a = 4;
+  int result = sqrt(a).toInt();
+  print(result);
+}
+
