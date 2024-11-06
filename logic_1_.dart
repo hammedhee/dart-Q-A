@@ -15,4 +15,22 @@ void main() {
   print(result);
 }
 
+// this is a program that can divide into int and duoble
+
+void main() {
+  List<int> result = [];
+  List<double> doble = [];
+  List mumbers = [12, 12.3, 1223, 12.4, 2324.4];
+  for (var num in mumbers) {
+    if (num is int) {
+      result.add(num);
+    } else {
+      doble.add(num);
+    }
+  }
+  print(result);
+  print(doble);
+}
+
+
           
