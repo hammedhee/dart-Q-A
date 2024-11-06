@@ -42,3 +42,32 @@ void main() {
   print(result);
 }
 
+
+
+// this is a simple example for do While loop
+
+import 'dart:io';
+
+void main() {
+  int sum = 0;
+  int? number;
+  do {
+    print('Enter a posetive number ');
+
+    String? num = stdin.readLineSync();
+
+    if (num != null) {
+      number = int.parse(num);
+      if (number < 0) {
+        break;
+      }
+      if (number > 0) {
+        sum += number;
+      }
+    }
+  } while (true);
+  print('the sum of the posetive numbers:$sum');
+
+}
+
+
