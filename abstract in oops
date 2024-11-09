@@ -1,0 +1,27 @@
+void main (){
+  Dog a =Dog();
+  a.bark();
+  Cat c =Cat();
+  c.bark();
+  
+}
+
+abstract class Animal {
+  String name = 'cow';
+  
+  void bark();
+}
+
+class Dog extends Animal{
+  void bark(){
+    print ('dog is barking ');
+  }
+}
+class Cat extends Animal{
+  void bark(){
+    print ('cat is barking ');
+  }
+}
+
+// (Focusing on essential features while
+ // hiding unnecessary details
