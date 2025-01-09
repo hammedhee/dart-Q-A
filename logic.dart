@@ -1,4 +1,4 @@
-// this is a simple prgram for palndrom
+ // this is a simple prgram for palndrom
 
 bool isPalendrom(String txt) {
   String reversedtext = txt.split('').reversed.join('');
